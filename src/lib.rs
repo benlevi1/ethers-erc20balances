@@ -100,6 +100,16 @@ pub static CONTRACTS: Lazy<HashMap<U256, Address>> = Lazy::new(|| {
             Address::from_str("0x437DF28584e878948aE2417E86e15690cCf822F4")
                 .expect("Failed to parse address"),
         ), // holesky
+        (
+            80002.into(),
+            Address::from_str("0x9d1E88627884e066B81A02d69BCB2437a520534C")
+                .expect("Failed to parse address"),
+        ), // Amoy
+        (
+            43113.into(),
+            Address::from_str("0x9d1E88627884e066B81A02d69BCB2437a520534C")
+                .expect("Failed to parse address"),
+        ), // Fuji
     ])
 });
 
